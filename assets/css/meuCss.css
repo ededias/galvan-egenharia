@@ -4,6 +4,10 @@ body,
   background-color: rgb(216, 216, 216) !important;
 }
 
+.branco {
+  background-color: rgb(255, 255, 255) !important;
+}
+
 .fixo {
   position: fixed !important;
 }
@@ -14,7 +18,14 @@ body,
   z-index: 1;
 
   /* margin-top: 6% !important; */
-  
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
+
+.corBotao {
+  background-color: rgb(168, 168, 168) !important;
 }
 
 .letras> h1, p {
