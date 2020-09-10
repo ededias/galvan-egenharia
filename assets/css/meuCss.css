@@ -1,123 +1,159 @@
 body,
 #sobre-nos,
 .cinza {
-  background-color: rgb(216, 216, 216) !important;
+    background-color: rgb(216, 216, 216) !important;
 }
 
 .branco {
-  background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(255, 255, 255) !important;
 }
 
 .fixo {
-  position: fixed !important;
+    position: fixed !important;
+}
+
+.borda {
+    border: 1px solid red;
+}
+
+.corAzul {
+    background-color: #355b9a !important;
 }
 
 .galvan {
-  position: absolute;
-  /* display: block; */
-  z-index: 1;
-
-  /* margin-top: 6% !important; */
+    position: absolute;
+    /* display: block; */
+    z-index: 1;
+    /* margin-top: 6% !important; */
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  width: 100%;
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.mouseHover:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.fonteCor {
+    color: #355b9a !important;
+}
+
+.fonte>div>div>div>div h3~p~a {
+    color: red !important;
 }
 
 .corBotao {
-  background-color: rgb(168, 168, 168) !important;
+    background-color: rgb(168, 168, 168) !important;
 }
 
-.letras> h1, p {
-  color: #355b9a !important;
+.letras>h1,
+p {
+    color: #355b9a !important;
+}
+
+h3.fonteCor {
+    font-size: 3rem;
+}
+
+.corCorpoCard {
+    background-color: rgb(180, 180, 180);
 }
 
 .hero__caption {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 
 /* line 58, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+
 .hero__caption span {
-  font-family: "Muli", sans-serif;
-  font-weight: 800;
-  display: block;
+    font-family: "Muli", sans-serif;
+    font-weight: 800;
+    display: block;
 }
 
+
 /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+
 .hero__caption h1 {
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
-  .hero__caption h1 {
-    font-size: 70px;
-    line-height: 1.2;
-  }
+    /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+    .hero__caption h1 {
+        font-size: 70px;
+        line-height: 1.2;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
-  .hero__caption h1 {
-    font-size: 50px;
-    line-height: 1.2;
-  }
+    /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+    .hero__caption h1 {
+        font-size: 50px;
+        line-height: 1.2;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
-  .hero__caption h1 {
-    font-size: 35px;
-    line-height: 1.4;
-  }
+    /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+    .hero__caption h1 {
+        font-size: 35px;
+        line-height: 1.4;
+    }
 }
 
 @media (max-width: 575px) {
-  /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
-  .hero__caption h1 {
-    font-size: 29px;
-    line-height: 1.5;
-  }
+    /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+    .hero__caption h1 {
+        font-size: 29px;
+        line-height: 1.5;
+    }
 }
+
 
 /* line 88, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+
 .hero__caption p {
-  font-size: 27px;
-  font-family: "Muli", sans-serif;
-  margin-bottom: 50px;
+    font-size: 27px;
+    font-family: "Muli", sans-serif;
+    margin-bottom: 50px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 88, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
-  .hero__caption p {
-    padding-right: 13px;
-  }
+    /* line 88, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+    .hero__caption p {
+        padding-right: 13px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 88, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
-  .hero__caption p {
-    padding-right: 0px;
-  }
+    /* line 88, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+    .hero__caption p {
+        padding-right: 0px;
+    }
 }
 
 @media (max-width: 575px) {
-  /* line 88, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
-  .hero__caption p {
-    padding-right: 0px;
-    font-size: 15px;
-  }
+    /* line 88, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
+    .hero__caption p {
+        padding-right: 0px;
+        font-size: 15px;
+    }
 }
 
-#seletor > h1,
+#seletor>h1,
 p {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
